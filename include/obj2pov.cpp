@@ -14,7 +14,7 @@ namespace obj2pov {
 
         if (!fin)
         {
-            std::cout << "Couldn't open .obj file!" << std::endl;
+            std::cout << "[obj2pov] Couldn't open .obj file!" << std::endl;
             return;
         }
 
